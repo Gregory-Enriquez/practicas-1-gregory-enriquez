@@ -7,16 +7,19 @@
     <title>Ejercicio 9</title>
 </head>
 <body>
+
     <p>innerHtml controla que puede inclinarse en un elemento.</p>
-    <div id ="Salida"></div>
+    <div id ="salida"></div>
 
     <script>
 
+
 let dato, num;
-dato= window.prompt("Introduce un numero ?", "0");
+
+dato = window.prompt("Introduce un numero ?", "0");
 num = parseInt(dato);
 
-let resultado = num *2;
+let resultado = num * 2;
 
 document.getElementById("salida").innerHtml = (`El doble es ${resultado} ` );
 
